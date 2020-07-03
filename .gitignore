@@ -2,8 +2,10 @@
 
 # compiled output
 /dist
+/build
 /tmp
 /out-tsc
+
 # Only exists if Bazel was run
 /bazel-out
 
@@ -32,6 +34,7 @@ speed-measure-plugin*.json
 .history/*
 
 # misc
+BrowserStackLocal
 /.sass-cache
 /connect.lock
 /coverage
